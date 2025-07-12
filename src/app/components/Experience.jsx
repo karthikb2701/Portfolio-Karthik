@@ -184,7 +184,7 @@ const Experience = () => {
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">Ready to Work Together?</h3>
             <p className="text-lg mb-6 opacity-90">
-              Let's discuss how my experience can contribute to your next
+              Let&apos;s discuss how my experience can contribute to your next
               project
             </p>
             <button

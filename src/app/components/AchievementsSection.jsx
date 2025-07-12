@@ -55,7 +55,7 @@ const AchievementsSection = () => {
           <div>
             <div className="space-y-6">
               <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-                I'm a passionate software developer with over 3 years of
+                I&apos;m a passionate software developer with over 3 years of
                 experience building digital products that solve real-world
                 problems. My journey began with a curiosity for how systems work
                 — and turned into a deep commitment to crafting clean,
