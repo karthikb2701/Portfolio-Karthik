@@ -64,8 +64,7 @@ const AchievementsSection = () => {
 
               <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
                 I specialize in full-stack development, with strong experience
-                in modern JavaScript frameworks, cloud platforms, REST APIs, and
-                database design. I enjoy turning complex requirements into
+                in modern JavaScript frameworks, cloud platforms, REST APIs. I enjoy turning complex requirements into
                 elegant solutions and believe in writing clean, maintainable,
                 and testable code.
               </p>
@@ -80,7 +79,7 @@ const AchievementsSection = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid lg:grid-cols-2 gap-6 sm:grid-cols-1">
             {achievementsList.map((item, index) => (
               <div
                 key={index}

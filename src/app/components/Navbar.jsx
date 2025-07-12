@@ -41,7 +41,7 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="text-2xl md:text-5xl dark:text-white text-black font-semibold"
         >
           <h3>KB</h3>
         </Link>
@@ -89,12 +89,12 @@ const Navbar = () => {
       </div>
 
 <div className="menu md:block md:w-auto">
-      <button
+      {/* <button
       onClick={toggleTheme}
       className="p-2 rounded-xl bg-gray-200 dark:bg-gray-700 transition hover:scale-105"
     >
       {theme === 'dark' ? <Sun className="text-yellow-400" /> : <Moon className="text-blue-600" />}
-    </button>
+    </button> */}
 </div>
       </div>
       {navbarOpen ? <MenuOverlay links={navLinks} /> : null}

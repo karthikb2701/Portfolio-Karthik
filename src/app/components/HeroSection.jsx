@@ -7,6 +7,19 @@ import Link from "next/link";
 import GraphemeSplitter from 'grapheme-splitter';
 const splitter = new GraphemeSplitter();
 
+
+const handleDownloadResume = () => {
+  try {
+    const link = document.createElement("a");
+    link.href = "/resume.pdf";
+    link.setAttribute("download", "Karthik_Bangera_Resume.pdf");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  } catch (error) {}
+};
+
+
 const HeroSection = () => {
   return (
     <section className="lg:py-16">
@@ -59,7 +72,7 @@ languages. Dedicated to developing creative solutions to meet business goals and
               href="/"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2" onClick={handleDownloadResume}>
                 Download CV
               </span>
             </Link>
