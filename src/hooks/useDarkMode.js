@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 
 export default function useDarkMode() {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
     const root = document.documentElement;
