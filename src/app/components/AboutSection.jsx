@@ -15,19 +15,19 @@ const data = {
   Education: [
     {
       degree: "MSc IT",
-      institution: "Your University Name",
-      year: "202x – 202x",
+      institution: "Nirmala Memorial Foundation College",
+      year: "2023 – 2025",
     },
     {
-      degree: "BSc Computer Science",
-      institution: "Your College Name",
-      year: "20xx – 20xx",
+      degree: "BSc IT",
+      institution: "Patkar Varde College",
+      year: "2019 – 2022",
     },
   ],
   Certifications: [
-    "Azure Fundamentals (AZ-900)",
     "Full-Stack Web Development Bootcamp",
-    "Agile with Atlassian Jira"
+    "Front End development with React",
+    "Front end web framework and tools "
   ]
 };
 
